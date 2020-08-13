@@ -4,11 +4,12 @@
 put=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board=(board)
 
-def rows()
+def rows{
 rows(0)= "" | " " | " "
 rows(1)=-----------
 rows(2) " " | " " | " "
 rows(3)-----------
 rows(4) " " | " " | " "
 (" ") = [" ", "X", "0"]
+}
     end
