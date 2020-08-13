@@ -1,15 +1,10 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-put=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board=(board)
-
-def rows{
-rows(0)=[' " " | " " | " " ']
-rows(1)=['-----------']
-rows(2)=[' " " | " " | " " ']
-rows(3)=['-----------']
-rows(4)=[' " " | " " | " " ']
-(" ") = [' ", "X", "0"]
-}
-    end
+def display_board(board)
+  puts" #{board[0]} | #{board[1]} | #{board[2]}  "
+  puts"-----------"
+  puts" #{board[3]} | #{board[4]} | #{board[5]} "
+  puts"-----------"
+  puts" #{board[6]} | #{board[7]} | #{board[8]} "
+end
