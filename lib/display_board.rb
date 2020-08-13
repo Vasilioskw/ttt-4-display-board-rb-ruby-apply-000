@@ -2,7 +2,7 @@
 # out the current state.
 
 put=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board("board","X","0")
+def display_board={(board, X, 0)}
 
 
     end
